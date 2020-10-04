@@ -26,6 +26,8 @@ static void hello_exit(void)
 
 MODULE_AUTHOR(DRIVER_AUTHOR);	/* Who wrote this module? */
 MODULE_LICENSE("Dual BSD/GPL");
+MODULE_DESCRIPTION("hello");
+
 
 module_init(hello_init);
 module_exit(hello_exit);
